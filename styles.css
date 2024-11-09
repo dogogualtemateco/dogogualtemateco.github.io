@@ -1,8 +1,8 @@
 body {
          background-image: url('https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-            background-size: cover; /* ajusta la imagen para cubrir todo el fondo */
-            background-repeat: no-repeat; /* evita que la imagen se repita */
-            background-position: center; /* centra la imagen */
+            background-size: cover; 
+            background-repeat: no-repeat;  
+            background-position: center; 
       }
       header{
          border: 5px, solid, black;
@@ -18,6 +18,9 @@ body {
       }
       nav{
          border-radius: 20px;
+         background-color: rgba(0,0,0,0.5); /* Azul con 50% de transparencia */
+         padding: 20px;
+         color: white; 
          height: 50px;
          width: 96%;
          font-family: arial;
@@ -58,6 +61,8 @@ body {
          height: 100px;
          width: 100%;
          font-family: arial;
+         background-color: rgba(0,0,0,0.5); /* Azul con 50% de transparencia */
+         padding: 20px;
          color : white;
          background-color: black;
          padding-left: 10px;
@@ -66,6 +71,9 @@ body {
       ol{
          list-style: none;
          padding-left: 10px;
+         background-color: rgba(0,0,0,0.5);
+         padding: 20px;
+         color: white; 
       }
       h1{
          color: white;
