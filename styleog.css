@@ -1,0 +1,91 @@
+body {
+         background-image: url('https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+      }
+      header{
+         border: 5px, solid, black;
+         min-height: 100px;
+         width: 100%;
+         background-color: black;
+         color : white;
+         font-family: comic sans ms;
+         text-align: center;
+         font-size: 4em;
+         border-radius: 30px;
+         text-shadow: 3px 3px 3px #d70000;
+      }
+      nav{
+         border: 5px, solid, black;
+         border-radius: 20px;
+         background-color: rgba(0,0,0,0.5); /* Azul con 50% de transparencia */
+         padding: 20px;
+         color: white; 
+         height: 50px;
+         width: 96%;
+         font-family: arial;
+         
+   
+         padding-left: 5%;
+         box-shadow: 2px 2px 2px black;   
+      }
+      ul{
+         list-style: none;
+         display: grid;
+         grid-template-columns: auto auto;
+         grid-template-rows: 50px;
+      }
+      main{
+         border: 5px, solid, black;
+         min-height: calc(100vh - 200px);
+         width: 100%;
+         display: flex;
+         margin-top: 10px;
+         border-radius: 10px;
+      }
+      section{
+         min-height: 100%;
+         width: 80%;
+         padding-left: 15px;
+         
+      }
+      aside{
+         min-sheight: 100%;
+         width: 19%;
+         
+         border-radius: 10PX;
+         padding-left: 3%;
+      }
+      footer{
+         border: 5px, solid, black;
+         height: 90px;
+         width: 100%;
+         background-color: rgba(0,0,0,0.5);
+         padding: 20px;
+         color: white; 
+         font-family: arial;
+         color : white;
+         text-align: center;  
+      }
+      ol{
+         list-style: none;
+         padding-left: 10px;;
+         height: 90px;
+         width: 100%;
+         background-color: rgba(0,0,0,0.5);
+         padding: 20px;
+         color: white; 
+         font-family: arial;
+         color : white;
+         text-align: center;  
+      }
+      h1{
+         color: white;
+         text-shadow: 4px 3px 1px black;
+      }
+      p{
+         color: white;
+         font-size: 20px;
+         text-shadow: 4px 3px 1px black;   
+}
